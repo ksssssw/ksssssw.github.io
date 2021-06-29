@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-06-29T14:30:49+09:00</updated><id>http://localhost:4000/</id><title type="html">Ksssssw’s Blog</title><subtitle>석원의 코딩일기장</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Example content</title><link href="http://localhost:4000/2017/11/22/example-content/" rel="alternate" type="text/html" title="Example content" /><published>2017-11-22T00:00:00+09:00</published><updated>2017-11-22T00:00:00+09:00</updated><id>http://localhost:4000/2017/11/22/example-content</id><content type="html" xml:base="http://localhost:4000/2017/11/22/example-content/">Text can be **bold**, _italic_, or ~~strikethrough~~.
+
+[Link to another page](another-page).
+
+There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Header 2
+
+&gt; This is a blockquote following a header.
+&gt;
+&gt; When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, &quot;= #{version}&quot;)
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists
+
+Name
+: Godzilla
+
+Born
+: 1952
+
+Birthplace
+: Japan
+
+Color
+: Green
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
+```
+
+```
+The final element.
+```
+
+## Hydejack Exclusives
+Hydejack offers a few additional features to markup your markdown.
+Don't worry, these are merely CSS classes added with kramdown's `{:.my-class}` syntax,
+so that your posts remain compatible with other Jekyll themes.
+
+### Message Boxes
+You can add a message box by adding the `message` class to a paragraph.
+{:.message}
+
+### Faded text
+You can add gray text by adding the `faded` class.
+{:.faded}
+
+### Lead Paragraphs
+You can add large text by adding the `lead` class to a paragraph.
+{:.lead}
+
+### Lead Quotes
+&gt; You can make a quote &quot;pop out&quot; by adding the `lead` class to a quote.
+{:.lead}
+
+### Lead Images
+You can make an image span the full width by adding the `lead` class:
+
+![Full-width image](https://placehold.it/800x100){:.lead}
+
+## Tables
+Large (data) tables:
+
+| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
+| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
+| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
+| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
+
+Prevent line breaks within cells by adding the `scroll-table` class to a table:
+
+| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
+| Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
+| 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
+| Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
+{:.scroll-table}
+
+Flip the table by adding the `flip-table` class to a table:
+
+| Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  | Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    | First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            | Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
+| 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            | 4th line        |quux        | baz             | bar            |
+| 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            | 5th line        |quux        | baz             | bar            |
+| 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            | 6th line        |quux        | baz             | bar            |
+| 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            | 7th line        |quux        | baz             | bar            |
+| 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            |
+| 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            |
+| 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            |
+{:.flip-table}
+
+### Math
+Inline math $$ f(x) = x^2 $$ and math blocks:
+
+$$
+\begin{aligned}
+  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
+                 \vdots          &amp; \ddots &amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}
+$$</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Text can be bold, italic, or strikethrough.</summary></entry><entry><title type="html">Hydejack’s New Design</title><link href="http://localhost:4000/2017/11/17/hydejacks-new-design/" rel="alternate" type="text/html" title="Hydejack's New Design" /><published>2017-11-17T00:00:00+09:00</published><updated>2017-11-17T00:00:00+09:00</updated><id>http://localhost:4000/2017/11/17/hydejacks-new-design</id><content type="html" xml:base="http://localhost:4000/2017/11/17/hydejacks-new-design/">While v7 brings an [insane amount of new stuff]({{ site.baseurl }}/CHANGELOG/#v700), the most notable change is the new background image.
+It is no longer *anti-selling* the theme.
+The old image was a blurred version of Napoleon Bonaparte, which was just... weird. I could tell the story of how this came to be,
+but I'd rather show you the new and improved background image.
+
+## New background image
+Yes, it's an aerial shot of a beach ([so hot right now](https://duckduckgo.com/?q=ios+11+background&amp;t=ffab&amp;iax=images&amp;ia=images)).
+
+![Hydejack's background image]({{ site.baseurl }}/assets/img/caleb-george.jpg){:.lead}
+
+Q: What has this picture to do with Hydejack?
+Nothing really, I just like how it looks.
+However: Boat → Pirates → Hijacking → Hydejack (illuminati confirmed)
+
+Even though it is a free image from [Unsplash](https://unsplash.com/) (...), it's unique in the sense that
+I've modified it so it looks better inside the sidebar.
+Specifically, I've straightened out the beach and rotated the boat so that it sits at a nice 90 degree angle.
+
+For comparison, here is the non-euclidean mess the [original photo](https://unsplash.com/photos/AtvuPUenaeI) was. Pretty OCD, I know.
+
+![Original photo]({{ site.baseurl }}/assets/img/caleb-george-old.jpg){:.lead}
+
+## New color palette
+I've extracted the major colors from the background image, which now form Hydejack's color palette:
+
+![Hydejacks's color palette]({{ site.baseurl }}/assets/img/COLOURlovers.com-Hydejack.png){:style=&quot;border: 1px solid #ddd&quot;}
+
+## New logo
+Hydejack also has a new logo, which is based on the new color palette.
+It also features the best font on Google Fonts, and probably the world: [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab)
+(which is to say, I like it a lot).
+
+![Hydejack's logo]({{ site.baseurl }}/assets/icons/icon.png)
+
+
+[^1]: I should mention that these are only default values. Hydejack let's you choose your own. For inspiration, I've recently added [a gallery]({{ site.baseurl }}/projects/) to the site that shows a few variations of the theme.</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">While v7 brings an insane amount of new stuff, the most notable change is the new background image. It is no longer anti-selling the theme. The old image was a blurred version of Napoleon Bonaparte, which was just… weird. I could tell the story of how this came to be, but I’d rather show you the new and improved background image.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/caleb-george.jpg" /></entry><entry><title type="html">Better Gem Support (v6.5)</title><link href="http://localhost:4000/2017/07/27/better-gem-support/" rel="alternate" type="text/html" title="Better Gem Support (v6.5)" /><published>2017-07-27T00:00:00+09:00</published><updated>2017-07-27T00:00:00+09:00</updated><id>http://localhost:4000/2017/07/27/better-gem-support</id><content type="html" xml:base="http://localhost:4000/2017/07/27/better-gem-support/">This maintenance release includes various quality-of-life improvements,
+especially when using the gem-based version of the theme.
+These changes come in handy when using Hydejack for a quick (project-) page:
+The `home` layout, which is used when using `jekyll new`,
+is now a proper layout that displays a few posts/pages below the regular content,
+and it is again possible to define an author in `_config.yml`
+without setting up a `_data` directory (for more, see blow).
+
+Version 6.5 also includes smaller design adjustments.
+Most notably, the default font is now Noto Sans.
+With the benefit of hindsight,
+using a serif font in combination with the slab headings feels more like a bug in the design than anything else.
+However, should you be happy with Noto Serif (the previous default font), there is no need to worry
+--- this only effects the default setting.
+
+For the full patch notes, read on.
+
+## Patch Notes
+### Added
+* Hydejack now uses additional Jekyll plugins by default, which make working with GitHub more convenient.
+  They have been added to the `Gemfile` and `_config.yml`.
+  Note that existing users need to update their `_config.yml`:
+
+  ~~~yml
+  gems:
+    - jekyll-default-layout # new
+    - jekyll-feed
+    - jekyll-optional-front-matter # new
+    - jekyll-paginate
+    - jekyll-redirect-from
+    - jekyll-relative-links # new
+    - jekyll-sitemap
+  ~~~
+
+* Added `licenses` folder that includes the full license texts of licenses mentioned in `NOTICE.md`.
+* You can, once again, define the author in `_config.yml`.
+  Using `_data/authors.yml` is still recommended (and takes precedence),
+  but this option is more convenient when setting up a quick (project-) page using the gem-based theme.
+  Also, a mini-version of `_data/social.yml` can be provided as part `_config.yml`, e.g.:
+
+  ~~~yml
+  author:
+    social:
+      github: https://github.com/qwtel/hydejack
+      npm: https://www.npmjs.com/package/hydejack
+      download: https://github.com/qwtel/hydejack/archive/v7.5.2.zip
+
+  data_social:
+    github:
+      name: GitHub
+      icon: icon-github
+    npm:
+      name: npm
+      icon: icon-npm
+    download:
+      name: Download
+      icon: icon-box-add
+  ~~~
+
+* A download icon has been added to the default icon font and `_data/social.yml` has been updated.
+* Added `_includes/my-scripts.html`, `_sass/my-inline.scss` and `_sass/my-style.scss` to make it easier to add custom scripts and styles without modifying the source. This is especially handy when using the gem-based version of the theme.
+
+### Changed
+* Loading web fonts now starts earlier and content download no longer blocks
+  swapping out the fallback font for the new font.
+  Previously, a page containing lots of images could have delayed displaying the web fonts significantly.
+* The `home` layout no longer contains a message suggesting that you don't use it.
+* The `home` layout now shows up to 5 blog posts and up to 5 pages blow the regular content.
+* The version history has been moved from `docs/&lt;version&gt;/versions.md` to `CHANGELOG.md`.
+* The license notices have been moved from `docs/&lt;version&gt;/licenses.md` to `NOTICE.md`.
+* Updated gem and npm dependencies
+
+### Design
+* The default font has been changed from &quot;Noto Serif&quot; to &quot;Noto Sans&quot;.
+  If you have a `font` entry in `_config.yml`, this will have no effect.
+* `nap.jpg` is no longer used as default background image in the gem-based theme.
+* The sidebar content width is now limited to the width of the sidebar (this only effects large screens).
+* Project cards and pagination buttons now have slightly rounded borders for a less &quot;rigid&quot; look.
+
+#### How to restore the old styles
+If you would like to use the old font, add the following to `_config.yml`:
+
+~~~yml
+font_heading: &quot;'Roboto Slab', Helvetica, Arial, sans-serif&quot;
+font:         &quot;'Noto Serif', Georgia, serif&quot;
+google_fonts: &quot;Roboto+Slab:700|Noto+Serif:400,400i,700,700i&quot;
+~~~
+
+If you were relying on the default setting for the background image, add the following to `_config.yml`:
+
+~~~yml
+image: /hydejack/assets/img/nap.jpg
+~~~
+
+Note that you have to replace `/hydejack` with your `baseurl`.
+
+To restore the old sidebar, open (or create) `_sass/my-inline.scss` and add the following:
+
+~~~css
+@media screen { .sidebar-sticky { left: 2rem; max-width: none; } }
+~~~
+
+To remove the border radius, open (or create) `_sass/my-inline.scss` and add the following:
+
+~~~css
+.card, .pagination-item { border-radius: 0!important; }
+~~~</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This maintenance release includes various quality-of-life improvements, especially when using the gem-based version of the theme. These changes come in handy when using Hydejack for a quick (project-) page: The home layout, which is used when using jekyll new, is now a proper layout that displays a few posts/pages below the regular content, and it is again possible to define an author in _config.yml without setting up a _data directory (for more, see blow).</summary></entry><entry><title type="html">Related Projects and Data Tables (v6.4)</title><link href="http://localhost:4000/2017/06/21/related-projects-and-data-tables/" rel="alternate" type="text/html" title="Related Projects and Data Tables (v6.4)" /><published>2017-06-21T00:00:00+09:00</published><updated>2017-06-21T00:00:00+09:00</updated><id>http://localhost:4000/2017/06/21/related-projects-and-data-tables</id><content type="html" xml:base="http://localhost:4000/2017/06/21/related-projects-and-data-tables/">In this release I've added a &quot;Other Projects&quot; section to the bottom of each project page,
+making it easier for users to navigate through your collection and discover other projects.
+Also, it's now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).
+
+For more on how to add tables, see the new section in [docs/writing][writing].
+
+Smaller changes include a reduced usage of horizontal lines and a more &quot;semantic&quot; use of `hr` elements.
+Specifically, the semantics of the resume layout have been improved.
+This is best visualized when viewing the page with a text browser like `w3m`.
+For example, before 6.4 the skills section looked like
+
+~~~
+Skills
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Web Development | Level: Master
+
+Keywords:
+
+  • HTML
+  • CSS
+  • Javascript
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Compression | Level: Master
+
+Keywords:
+
+  • Mpeg
+  • MP4
+  • GIF
+~~~
+
+(lots of `hr`s, skill level as part of the headline 😕)
+
+Now it looks like
+
+~~~
+Skills
+
+Web Development
+    Level: Master
+    Keywords:
+      □ HTML
+      □ CSS
+      □ Javascript
+Compression
+    Level: Master
+    Keywords:
+      □ Mpeg
+      □ MP4
+      □ GIF
+~~~
+
+(using a `dl`, so that `Level -&gt; &quot;Master&quot;`, `Keywords -&gt; ul`, ...)
+
+There's many more minor changes and fixes that you can read below.
+
+## Patch Notes
+### Minor
+* Added &quot;Other Projects&quot; section to the bottom of the project layout (similar to &quot;Related Posts&quot;)
+* Added CSS classes that make viewing larger (data-) tables possible
+* Added section on tables to [docs/writing][writing]
+* Reduced use of `&lt;hr/&gt;` elements, using CSS borders instead.
+* Improved semantic HTML of resume
+* Follow favicon best practices and include example icons
+* Added `no_google_fonts` option
+
+### Design
+* Reduced number of horizontal lines, making many layouts feel less &quot;cluttered&quot; (esp. `blog` layout)
+* Made link hover styles consistent across the board
+* Visually separated `thead` and `tbody` and `tfoot` within tables.
+* Changed RSS and email icons
+* Removed top margin for consecutive headings, e.g. when using `h3` immediately after `h2`.
+
+### Fixes
+* Fixed bug that caused inline math to be moved to the end of a paragraph when dynamically loading a page.
+* Fixed bug that caused layout to break in IE11.
+* Fixed bug that caused the project animation to &quot;jump&quot; when using long project titles.
+* No more empty attributes on `img` tags.
+
+[writing]: /docs/7.5.2/writing/</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">In this release I’ve added a “Other Projects” section to the bottom of each project page, making it easier for users to navigate through your collection and discover other projects. Also, it’s now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).</summary></entry><entry><title type="html">Third Party Scripts (v6.3)</title><link href="http://localhost:4000/2017/06/06/third-party-scripts/" rel="alternate" type="text/html" title="Third Party Scripts (v6.3)" /><published>2017-06-06T00:00:00+09:00</published><updated>2017-06-06T00:00:00+09:00</updated><id>http://localhost:4000/2017/06/06/third-party-scripts</id><content type="html" xml:base="http://localhost:4000/2017/06/06/third-party-scripts/">This release makes including third party plugins easier.
+Until now, the push state approach to loading new pages has been interfering with embedded `script` tags.
+This version changes this by simulating the sequential loading of script tags on a fresh page load.
+
+This approach should work in a majority of cases, but can still cause problems with scripts that can't be added more than once per page.
+If an issue can't be resolved, there's now the option to disable push state by setting `disable_push_state: true` in `config.yml`.
+
+## What's happening?
+The problem is as follows:
+When the browser encounters a `script` tag while parsing a HTML page it will stop (possibly to make a request to fetch
+an external script) and then execute the code before continuing parsing the page
+(it's easy to how this can make your page really slow, but that's a different topic).
+
+In any case, due of this behavior you can do things like include jQuery,
+then run code that depends on jQuery in the next script tag:
+
+~~~html
+&lt;script src=&quot;.../jquery.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  $('#tabs').someJQueryFunction(); // works
+&lt;/script&gt;
+~~~
+
+I'd consider this an anti-pattern for the reason mentioned above,
+but it remains common and has the advantage of being easy to understand.
+
+However, things break when Hydejack dynamically inserts new content into the page.
+It works fine for standard markdown content like `p` tags,
+but when inserting `script` tags the browser will execute them immediately and in parallel,
+because in most cases this is what you'd want.
+However, this means that `$('#tabs').someJQueryFunction();` will run while the HTTP request for jQuery is still
+in progress --- and we get an error that `$` isn't defined, or similar.
+
+From this description the solution should be obvious: Insert the `script` tags one-by-one,
+to simulate how they would get executed if it was a fresh page request.
+In fact this is how Hydejack is now handling things (and thanks to rxjs' `concatMap` it was easy to implement),
+but unfortunately this is not a magic solution that can fix all problems:
+
+* Some scripts may throw when running on the same page twice
+* Some scripts rely on the document's `load` event, which has fired long before the script was inserted
+* unkown-unkowns
+
+But what will &quot;magically&quot; solve all third party script problems, is disabling dynamic page loading altogether,
+for which there's now an option.
+To make this a slightly less bitter pill to swallow,
+there's now a CSS-only &quot;intro&quot; animation that looks similar to the dynamic one.
+Maybe you won't even notice the difference.
+
+## Patch Notes
+### Minor
+* Support embedding `script` tags in markdown content
+* Add `disable_push_state` option to `_config.yml`
+* Add `disable_drawer` option to `_config.yml`
+* Rename syntax highlighting file to `syntax.scss`
+* Added [chapter on third party scripts][scripts] to documentation
+
+### Design
+* Add subtle intro animation
+* Rename &quot;Check out X for more&quot; to &quot;See X for more&quot; on welcome\* page
+* Replace &quot;»&quot; with &quot;→&quot; in &quot;read more&quot;-type of links
+
+### Fixes
+* Fix default color in gem-based theme
+
+[scripts]: /docs/7.5.2/scripts/</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This release makes including third party plugins easier. Until now, the push state approach to loading new pages has been interfering with embedded script tags. This version changes this by simulating the sequential loading of script tags on a fresh page load.</summary></entry><entry><title type="html">JavaScripten (v6)</title><link href="http://localhost:4000/2017/05/03/javascripten/" rel="alternate" type="text/html" title="JavaScripten (v6)" /><published>2017-05-03T00:00:00+09:00</published><updated>2017-05-03T00:00:00+09:00</updated><id>http://localhost:4000/2017/05/03/javascripten</id><content type="html" xml:base="http://localhost:4000/2017/05/03/javascripten/">Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly.
+This changes with this release, which adds a ton of (optional) code that changes the feel of the theme dramatically.
+
+## Major
+Pages are now loaded and swapped through JavaScript. This has a number of effects.
+First of all, it looks cool, but the animations aren't just about aesthetics:
+They also help to hide the network time of fetching the next page, making the entire site feel faster.
+At the same time, the FOUC introduced in the last release will no longer occur (except on the initial page load).
+
+* Most JS is now unified in the `_js` directory and written in ES2016.
+* The `blog-by-tag` layout has been renamed to `list`.
+* `public` folder has been renamed to `assets` to make the theme compatible with Jekyll's gem-based themes.
+* Tags are now supported via Jekyll Collections instead of `_data`.
+* The sidebar can now add links to all kinds of pages.
+* Categories are now supported.
+* Author information moved to `_data/authors.yml`
+* Added support for multiple authors.
+* Using `jekyll-feed` plugin (supported on GitHub Pages) instead of custom solution.
+* Added `about` layout.
+* Added `not-found` layout.
+* Added `redirect` layout
+
+See the [the migration guide][upgrade] for instructions on how to upgrade.
+
+## Minor
+* The &quot;accent&quot; font (heading font) is now used for all headings.
+  This gives the theme a &quot;bolder&quot; look and was necessary for the animation: link =&gt; heading.
+* Changed default text font from &quot;PT Serif&quot; to &quot;Noto Serif&quot;.
+* Added [CSS classes][writing] for styling markdown content.
+* Links have a new style.
+  They now always display an underline to make the choice of the link color less critical (darker colors were hard to
+  distinguish from regular text).
+* Made social media icons larger and easier to tap.
+* Social media icons are now also part of the &quot;about&quot; sections of a post.
+* Added support for a copyright notice at the bottom. Can be set via the config variable `copyright`.
+* Changed responsive breakpoints and added support for very large displays.
+* The site is now printable.
+* The `blog` layout now only shows the excerpt instead of the full post.
+* Links to external pages are now marked with a symbol.
+* Added margin above social media icons to prevent accidental tapping
+* Added gem files so that `bundle install` and `bundle exec jekyll serve` work
+* Disabled HTML minification when running via `jekyll serve`
+* Added dingbat to signal end of post
+
+## Fixes
+* Related posts is no longer blank for posts that do not belong to a category.
+* Footnotes now use the text version of &quot;leftwards arrow with hook&quot; instead of the emoji on iOS.
+* Text is no longer invisible while waiting for Google Fonts to load.
+* Always show scrollbar to prevent layout &quot;jumps&quot;
+
+***
+
+[Get *JavaScripten* on GitHub](https://github.com/qwtel/hydejack/releases/tag/v7.5.2)
+
+[upgrade]: /docs/7.5.2/upgrade/
+
+[writing]: /docs/7.5.2/writing/
+
+*[FOUC]: Flash of Unstyled Content</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Hydejack has always featured a JavaScript-heavy sidebar, but other than that, JS has been used sparingly. This changes with this release, which adds a ton of (optional) code that changes the feel of the theme dramatically.</summary></entry><entry><title type="html">The Fast One (v5)</title><link href="http://localhost:4000/2016/09/17/the-fast-one/" rel="alternate" type="text/html" title="The Fast One (v5)" /><published>2016-09-17T00:00:00+09:00</published><updated>2016-09-17T00:00:00+09:00</updated><id>http://localhost:4000/2016/09/17/the-fast-one</id><content type="html" xml:base="http://localhost:4000/2016/09/17/the-fast-one/">This major release increases page load speed dramatically.
+The page now scores roughly 90/100 on [Google's PageSpeed Insights][gpsi] (up from ~50) and
+has a high score on similar tools.
+
+**NOTE**: This post is outdated and only included for legacy reasons.
+See the [Documentation][docs]{:.heading.flip-title} for up-to-date instructions.
+{:.message}
+
+Most importantly, the critical rendering path is no longer blocked by loading styles or scripts,
+meaning the site becomes visible faster.
+
+Page load speed matters to Google, but is also *very* apparent to visitors with slow internet connections.
+
+However, as a side effect of these optimizations, the site now has a visible FOUC.
+Future versions might address this,
+but it is the currency in which loading speed is being payed for and can not be fully avoided.
+
+## Major
+
+* HTML, CSS and JS served minified.
+* JS downloading starts only after the rest of the page is rendered.
+* Critical CSS (above-the-fold) is inlined into the document, the rest is fetched later.
+
+In order to minify the CSS and make it more modular it has been rewritten in SCSS.
+
+
+## Minor
+
+* Colored focus outline in page color
+* Tabindex for tab navigation
+* Social media icons easier tappable with finger
+
+## Trivia
+
+Not strictly part of the release, but the images have been blurred to increase text readability and
+help with loading speed as well (burred images get compressed by JPG much better).
+
+***
+
+[Get *The Fast One* on GitHub](https://github.com/qwtel/hydejack/releases)
+
+[docs]: /docs/7.5.2/
+[gpsi]: https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fqwtel.com%2Fhydejack%2F
+
+*[FOUC]: Flash Of Unstyled Content</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">This major release increases page load speed dramatically. The page now scores roughly 90/100 on Google’s PageSpeed Insights (up from ~50) and has a high score on similar tools.</summary></entry><entry><title type="html">Social Media Impocalypse (v4)</title><link href="http://localhost:4000/2016/08/30/social-media-impocalypse/" rel="alternate" type="text/html" title="Social Media Impocalypse (v4)" /><published>2016-08-30T00:00:00+09:00</published><updated>2016-08-30T00:00:00+09:00</updated><id>http://localhost:4000/2016/08/30/social-media-impocalypse</id><content type="html" xml:base="http://localhost:4000/2016/08/30/social-media-impocalypse/">## Breaking
+* Structure of `_config.yml` has changed
+  * Social media usernames are now located under `author: social: &lt;platform&gt;: &lt;username&gt;`.
+  * `disqus` is now a top-level entry (moved from `author`).
+  * Now has `font`, `font_accent` and `google_fonts` fields that are mandatory.
+* Now defaults to the `blog` layout, old style is available via `blog-by-tag` layout, see `archive.html`.
+
+&lt;!--more--&gt;
+
+**NOTE**: This post is outdated and only included for legacy reasons.
+See the [Documentation][docs]{:.heading.flip-title} for up-to-date instructions.
+{:.message}
+
+## New features
+* Added *a lot* of social media icons, configurable via `_config.yml`.
+* New `blog` layout. Classic, paginated.
+* Fonts are configurable via `_config.yml`.
+
+## Design
+* Link underlines are now fixed-sized for all font sizes (no thicker lines for headlines, etc)
+
+## Fixes
+* Correctly set the meta description field using either the `description` field or `post.excerpt` as a fallback (used
+  to contain the unmodified markdown).
+* Fixed various URL bugs relating to `site.baseurl`.
+
+## Internal
+* Refactoring, preventing code duplications, heavier usage of `includes`.
+
+***
+
+[Get *Social Media Impocalypse* on GitHub](https://github.com/qwtel/hydejack/releases)
+
+[docs]: /docs/7.5.2/</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Breaking Structure of _config.yml has changed Social media usernames are now located under author: social: &amp;lt;platform&amp;gt;: &amp;lt;username&amp;gt;. disqus is now a top-level entry (moved from author). Now has font, font_accent and google_fonts fields that are mandatory. Now defaults to the blog layout, old style is available via blog-by-tag layout, see archive.html.</summary></entry><entry><title type="html">Introducing Hydejack (v3)</title><link href="http://localhost:4000/2016/03/08/introducing-hydejack/" rel="alternate" type="text/html" title="Introducing Hydejack (v3)" /><published>2016-03-08T00:00:00+09:00</published><updated>2016-03-08T00:00:00+09:00</updated><id>http://localhost:4000/2016/03/08/introducing-hydejack</id><content type="html" xml:base="http://localhost:4000/2016/03/08/introducing-hydejack/">## Features
+Unlike Hyde, it's very opinionated about how you are going to use it.
+
+Features include:
+
+* Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled.
+* Github Pages compatible tag support based on [this post][tag].
+* Customizable link color and sidebar image, per-site, per-tag and per-post.
+* Optional author section at the bottom of each post.
+* Optional comment section powered by Disqus.
+* Layout for posts grouped by year
+* Wide array of social media icons on sidebar.
+* Math blocks via [KaTeX](https://khan.github.io/KaTeX/).
+
+&lt;!--more--&gt;
+
+**NOTE**: This post is outdated and only included for legacy reasons.
+See the [Documentation][docs]{:.heading.flip-title} for up-to-date instructions.
+{:.message}
+
+## Download
+Hydejack is developed on and hosted with GitHub. Head to the [GitHub repository](https://github.com/qwtel/hydejack)
+for downloads, bug reports, and feature requests.
+
+## Sidebar
+I love the original Hyde theme, but unfortunately the layout isn't as great on small screens.
+Since the sidebar moves to the top, the user has to scroll down just to read the title of a blog post.
+
+By using a drawer component I was able to retain the original two column layout.
+It's possible to move the drawer via touch input (with the help of a little JavaScript).
+
+Since the background image contributes to the feel of the page I'm letting it peek over the edge a bit.
+This also provides a hint to the user that an interaction is possible.
+
+## Manual
+
+### Configuration
+You can configure important aspects of the theme via
+[`_config.yml`](https://github.com/qwtel/hydejack/blob/v3/_config.yml).
+This includes:
+
+* the blog description in the sidebar
+* the (optional) author description and photo
+* default image and link color of the blog
+* the github and twitter usernames
+
+### How to Change the Image and Color of a Post
+In the manifest of a blog post, simply add an url as `image` and a CSS color as `color`:
+
+~~~yml
+layout: post
+title: Introducing Hydejack
+image: https://qwtel.com/hydejack/assets/img/hyde.jpg
+color: '#949667'
+~~~
+
+### How to Add a New Tag
+Tags are not meant to be used #instagram #style: #food #goodfood #happy #happylife #didimentionfood #yougetthepoint,
+as each tag requires some setup work. I tend to think of it as categories that can be combined.
+
+1.  Add an entry to `_data/tags.yml`, where the key represents a slug and provide at least a `name` value and
+    optionally `image`, `color` and `description`.
+
+    Example `/_data/tags.yml`:
+
+    ~~~yml
+    mytag:
+      name: My Tag
+    ~~~
+
+2.  Make a new file in the `tag` folder, using the same name you've used as the key / slug and
+    change the `tag` and `permalink` entries.
+
+    Example `/tag/mytag.md`:
+
+    ~~~yml
+    layout: blog-by-tag
+    tag: mytag
+    permalink: /tag/mytag/
+    ~~~
+
+3.  Tag your blog posts using the `tags` key (color and image will only depend on the first tag).
+
+    ~~~yml
+    layout: post
+    title: Introducing My New Tag
+    tags: [mytag, othertag]
+    ~~~
+
+4. (optional) Add the tag to the sidebar, by adding it to `sidebar_tags` in `_config.yml`.
+   They will appear in the listed order.
+
+   ~~~yml
+   sidebar_tags: [mytag, othertag]
+   ~~~
+
+[docs]: /docs/7.5.2/
+[tag]: http://www.minddust.com/post/tags-and-categories-on-github-pages/</content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hydejack" /><summary type="html">Features Unlike Hyde, it’s very opinionated about how you are going to use it. Features include: Touch-enabled sidebar / drawer for mobile, including fallback when JS is disabled. Github Pages compatible tag support based on this post. Customizable link color and sidebar image, per-site, per-tag and per-post. Optional author section at the bottom of each post. Optional comment section powered by Disqus. Layout for posts grouped by year Wide array of social media icons on sidebar. Math blocks via KaTeX.</summary></entry><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/2013/12/28/introducing-hyde/" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00+09:00</published><updated>2013-12-28T00:00:00+09:00</updated><id>http://localhost:4000/2013/12/28/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/2013/12/28/introducing-hyde/">Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+
+**NOTE**: This post is outdated and only included for legacy reasons.
+See the [Documentation][docs] for up-to-date instructions.
+{:.message}
+
+### Built on Poole
+
+Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+
+* Complete Jekyll setup included (layouts, config, [404]({{ '/404' | relative_url }}), [RSS feed]({{'/feed.xml' | relative_url }}){:.external}, posts, and [example page]({{ '/about/' | relative_url }}))
+* Mobile friendly design and development
+* Easily scalable text and component sizing with `rem` units in the CSS
+* Support for a wide gamut of HTML elements
+* Related posts (time-based, because Jekyll) below each post
+* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+
+### Hyde features
+
+In addition to the features of Poole, Hyde adds the following:
+
+* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
+* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `&lt;body&gt;` classes
+* [Eight optional color schemes](https://github.com/poole/hyde#themes), available via `&lt;body&gt;` classes
+
+[Head to the readme](https://github.com/poole/hyde#readme) to learn more.
+
+### Browser support
+
+Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+
+### Download
+
+Hyde is developed on and hosted with GitHub. Head to the [GitHub repository](https://github.com/poole/hyde) for downloads, bug reports, and features requests.
+
+Thanks!
+
+[docs]: /docs/7.5.2/</content><author><name>&lt;firtname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="hyde" /><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler.</summary></entry></feed>
