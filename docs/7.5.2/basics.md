@@ -144,7 +144,7 @@ Each file in these folders is part of a [Jekyll Collection](https://jekyllrb.com
 The the data of a category or tag is set in the files front matter, e.g.
 
 ~~~yml
-# file: _featured_tags/hyde.md
+# file: _featured_tags/about.md
 ---
 layout: list
 title:  Hyde

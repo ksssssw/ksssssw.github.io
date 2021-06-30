@@ -82,7 +82,7 @@ You'll want to move your static assets there.
 1.  Delete the `tag` folder.
 2.  Create a top-level folder called `_featured_tags`.
 3.  For each entry in `_data/tags.yml`, create a markdown file in `_features_tags` with the name of the tag as filename,
-    e.g. `hyde.md` for tag "hyde".
+    e.g. `about.md` for tag "hyde".
 4.  For each tag, copy its contents from `_data/tags.yml` into the new file's front matter, e.g.
 
     ~~~yml
