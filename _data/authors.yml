@@ -8,7 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요. 제 이름은 강석원입니다.
+    **안녕하세요!! 👋** Cross-Platform & Android 개발자를 꿈 꾸는 강석원입니다.
+
+    SeokWon Kang [@ksssssw](https://github.com/ksssssw)
 
   # This photo will be used in the about section
   picture:
@@ -24,7 +26,7 @@ author1:
   social:
     #twitter:         <username>
     github:          ksssssw
-    # email:           mailto:<mail@domain.tld>
+    email:           mailto:<rtd0731@naver.com>
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>

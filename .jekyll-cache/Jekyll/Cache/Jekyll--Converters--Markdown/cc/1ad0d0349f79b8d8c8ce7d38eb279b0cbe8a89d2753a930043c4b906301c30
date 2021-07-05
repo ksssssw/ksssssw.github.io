@@ -1,0 +1,32 @@
+I"l<p><strong>안녕하세요!! 👋</strong> Cross-Platform &amp; Android 개발자를 꿈 꾸는 강석원입니다.</p>
+
+<blockquote class="lead">
+  <p>Your presence on the web — A [blog], a [portfolio] and a [resume].</p>
+</blockquote>
+
+<h2 id="features">Features</h2>
+<p>Both versions include these features:</p>
+
+<ul>
+  <li>Full in-app page loading, powered by [hy-push-state]{:.external}</li>
+  <li>A customizable sidebar that turns into a drawer menu on mobile, powered by [hy-drawer]{:.external}</li>
+  <li>Advanced FLIP animations, inspired by Material Design</li>
+  <li>Good [Google PageSpeed Score][gpss][^4]</li>
+  <li>Higher <em>perceived speed</em> thanks to content pre-fetching</li>
+  <li><a href="#syntax-highlighting">Syntax highlighting</a>, powered by [Rouge]</li>
+  <li><a href="#latex-math-blocks">LaTeX math blocks</a>, powered by [KaTeX]</li>
+  <li>Change the wording of built-in strings and possibly translate in other languages</li>
+  <li>Support for categories and tags</li>
+  <li>Built-in icons for many social networks</li>
+  <li>Simple and semantic HTML — can be viewed even with text-based browsers</li>
+  <li>Author section below each article and support for multiple authors</li>
+  <li>Progressive enhancement — sacrifice features, not content</li>
+  <li>Google Analytics and Google Fonts support</li>
+  <li>Disqus comments</li>
+  <li>Print layout — Used to render Hydejack’s [PDF documentation][pdf]</li>
+  <li>Blog layout via <code class="language-plaintext highlighter-rouge">jekyll-paginate</code> (optional)</li>
+  <li>SEO meta tags via <code class="language-plaintext highlighter-rouge">jekyll-seo-tag</code> (optional)</li>
+  <li>Github avatars via <code class="language-plaintext highlighter-rouge">jekyll-avatar</code> (optional)</li>
+  <li>Gist support via <code class="language-plaintext highlighter-rouge">jekyll-gist</code> (optional)</li>
+</ul>
+:ET
