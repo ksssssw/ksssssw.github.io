@@ -2,23 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://ksssssw.site//tag/project/</loc>
-<lastmod>2021-07-06T14:25:50+09:00</lastmod>
+<lastmod>2021-07-06T16:43:35+09:00</lastmod>
 </url>
 <url>
 <loc>https://ksssssw.site//tag/study/</loc>
-<lastmod>2021-07-06T14:25:50+09:00</lastmod>
+<lastmod>2021-07-06T16:43:35+09:00</lastmod>
 </url>
 <url>
-<loc>https://ksssssw.site//project/2021/06/28/whats-jekyll/</loc>
-<lastmod>2021-06-28T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://ksssssw.site//study/2021/06/29/whats-jekyll-copy-2/</loc>
-<lastmod>2021-06-29T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>https://ksssssw.site//study/2021/06/30/whats-jekyll-copy/</loc>
-<lastmod>2021-06-30T00:00:00+09:00</lastmod>
+<loc>https://ksssssw.site//flutter/2021/07/06/flutter-jekyll/</loc>
+<lastmod>2021-07-06T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>https://ksssssw.site//licenses/Apache-2.0/</loc>
